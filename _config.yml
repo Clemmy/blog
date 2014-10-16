@@ -1,0 +1,40 @@
+baseurl: "" # The subpath of your site. "" => root level
+url: "clemmy.github.io" # the base hostname & protocol for your site.
+title: "Clemmy's Blog"
+
+
+paginate: 3
+paginate_path: /blog/page:num
+
+
+#contact links
+git: "https://github.com/clemmy"
+stackoverflow: "http://stackoverflow.com/users/2252894/clement-hoang"
+twitter: "https://twitter.com/c8hoang"
+
+
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
