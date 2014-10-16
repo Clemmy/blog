@@ -11,6 +11,7 @@ paginate_path: /blog/page:num
 github: "https://github.com/clemmy"
 stackoverflow: "http://stackoverflow.com/users/2252894/clement-hoang"
 twitter: "https://twitter.com/c8hoang"
+linkedin: "https://www.linkedin.com/in/clementhoang"
 
 
 gems:
