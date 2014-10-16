@@ -148,7 +148,7 @@ textarea {
  * Addresses margins handled incorrectly in IE6/7
  */
 body {
-  margin: 0; 
+  margin: 0;
 }
 
 /* =============================================================================
@@ -174,7 +174,7 @@ form {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -297,20 +297,15 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #f0e7d5;
+  color: #ffffff;
   font-weight: normal;
-  background: #252525;
+  background: #231F1F;
   background-attachment: fixed !important;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
-  background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
-  background: -moz-linear-gradient(#2a2a29, #1c1c1c);
-  background: -o-linear-gradient(#2a2a29, #1c1c1c);
-  background: linear-gradient(#2a2a29, #1c1c1c);
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #FF005D;
+  color: #ffffff;
   margin: 0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -345,12 +340,12 @@ h3 {
 }
 
 a {
-  color: #49B1F7; 
+  color: #49B1F7;
   font-weight: 400;
   text-decoration: none;
 }
 a:hover {
-  color: #7373ed; 
+  color: #7373ed;
     text-decoration: none;
 }
 
@@ -453,7 +448,7 @@ hr {
 }
 
 dt {
-  color: #F0E7D5;
+  color: #ffffff;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }
@@ -472,7 +467,7 @@ section #title {
   padding: 0 0 5px 0;
 }
 
-section .p-title{ 
+section .p-title{
     color: #49B1F7;
 }
 
@@ -485,14 +480,14 @@ section #title h1 {
 
 section #title p {
 
-  color: #7373ed;
+  color: #49B1F7;
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
 }
 
-section #title .credits { 
+section #title .credits {
   font-size: 13px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -514,24 +509,13 @@ footer .right{
   float: right;
 }
 
-
-
 .paginate{
 margin-bottom: 15px;
 }
 
-.resume p{
-  mfont-size: 15px;
-  line-height: 24px;
-  margin: 0 0 10px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #b6b6b6;
-}
-
 .tags a {
   display: inline-block;
-  margin: 0 25px 25px 0; 
+  margin: 0 25px 25px 0;
 }
 
 #red a{
@@ -547,7 +531,6 @@ margin-bottom: 15px;
   margin-bottom: 15px;
 }
 
-#title #sitename,.resume span {
-  color: #FF005D;
+#title #sitename {
+  color: #ffffff;
 }
-
