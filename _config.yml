@@ -1,5 +1,5 @@
 baseurl: "" # The subpath of your site. "" => root level
-url: "clemmy.github.io" # the base hostname & protocol for your site.
+url: "blog.clementhoang.net" # the base hostname & protocol for your site.
 title: "Clemmy's Blog"
 
 
