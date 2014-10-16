@@ -16,7 +16,7 @@ $headings-line-height: 1.3;
 
 
 //CUSTOMIZE BOOTSTRAP VARIABLES HERE
-//YOU CAN FIND ALL THE VARIABLES NAMES AND COMPONENTS ITSEF IN _saas/bootstrap DIRECTORY 
+//YOU CAN FIND ALL THE VARIABLES NAMES AND COMPONENTS ITSEF IN _saas/bootstrap DIRECTORY
 
 //HERES AN EXAMPLE OF CUSTOMIZING BOOTSTRAP ALERT SUCCESS BOX
 //GOOD LUCK :)
@@ -32,17 +32,6 @@ $state-warning-bg: #49B1F7;
 @import "custom-bootstrap-variables";
 @import "bootstrap-sass/bootstrap";
 
-
-//share buttons
-.btn{
- &:hover,
-  &:focus {
-    color: #fff;
-    text-decoration: none;
-  }
-}
-
 mark, .mark {
   opacity: 0.9;
 }
-

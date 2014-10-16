@@ -1,6 +1,6 @@
 ---
 title: "This is a test post"
-tags: [test_tag]
+tags: [test_tag, 2]
 ---
 
 
