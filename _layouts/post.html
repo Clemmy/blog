@@ -7,7 +7,7 @@ layout: default
     {% include post-header.html %}
 </div>
 
-  {{ content }} 
+  {{ content }}
 
 <div class="comments">
   {% include disqus.html%}
@@ -30,8 +30,7 @@ layout: default
             <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
           </h3>
 
-          <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">{{ page.previous.title }}</a></h2>
-          {{ page.previous.excerpt | markdownify }}
+          <h3 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">&laquo{{ page.previous.title }}</a></h3>
         </div>
       {% endif %}
       {% if page.next %}
@@ -45,8 +44,7 @@ layout: default
             {% endunless %}
           </h3>
 
-          <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.baseurl }}">{{ page.next.title }}</a></h2>
-          {{ page.next.excerpt | markdownify }}
+          <h3 class="post-title-link"><a href="{{ page.next.url | prepend:site.baseurl }}">{{ page.next.title }}&raquo</a></h3>
         </div>
       {% endif %}
     </div>
