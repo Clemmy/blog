@@ -9,7 +9,7 @@ After a year and a half of telling myself that I was going to start a blog, I fi
 I am a second year software engineering student at the University of Waterloo, and in this post, I will be discussing why I started this blog, why I chose Jekyll, and a bit about my design decisions and blog setup.
 
 ##Why I Am Blogging
-Throughout my several years of programming, I have repeatedly fell into the same dilemma over and over again. That is, I would encounter a tough programming challenge, tackle it, and finally solve it after a lot of hacking and hard work. However, despite all the effort that I put into solving the problem, I would realize in perhaps a week's time, that I completely forgot how I solved it, and be sitting perplexed in face of the same problem. After a while of facing this dilemma, I realized that if I started a blog, then it would serve as a multi-purpose solution to both myself and others:
+In my several years of programming, I have repeatedly experienced the same dilemma: I would encounter a particularly difficult programming challenge, tackle it, and finally solve it after a lot of hacking and hard work. However, despite all the effort that I put into solving the problem, I would realize in perhaps a week's time, that I had completely forgotten how to solve it, and be sitting perplexed in face of the same problem. After a while of facing this dilemma, I realized that if I started a blog, then it would serve as a multi-purpose solution to both myself and others:
 
 - a refresher for myself about problems that I have previously encountered and how to solve them
 - a refresher on how to do cool things
