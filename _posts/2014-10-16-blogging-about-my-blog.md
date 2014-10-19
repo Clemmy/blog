@@ -32,7 +32,7 @@ When building my blog, my workflow consisted of a Ubuntu virtual machine where I
 ###My Development Environment
 My Ubuntu virtual machine is where I did all my development and experimentation. In order to set it up as the development machine, I installed rbenv, libssl-dev, ruby-build plug-in, ruby, jekyll, nodejs, and git. I set it up with the following script:
 
-{% highlight bash %}
+```bash
 #This script prepares a Debian-based Linux box (particularly Ubuntu) for setting up a simple Jekyll demo
 RUBYVERSION=2.1.2 #Ruby Version to install (a list can be displayed with 'rbenv install -l')
 
@@ -64,7 +64,7 @@ jekyll serve
 #sudo gem install bundler
 #bundle install
 #jekyll serve
-{% endhighlight %}
+```
 
 ###My Production Environment
 The production environment is basically GitHub Pages, and the repository that is hosted on GitHub. In order to add content or remove content, I simply need to go to [github.com/clemmy/clemmy.github.io](http://github.com/clemmy/clemmy.github.io/) and make changes through GitHub's in-browser editor.

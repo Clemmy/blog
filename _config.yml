@@ -40,3 +40,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
