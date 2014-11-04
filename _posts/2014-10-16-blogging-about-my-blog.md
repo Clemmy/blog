@@ -41,7 +41,9 @@ sudo apt-get install git
 
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv #Check out rbenv into ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc #Add ~/.rbenv/bin to $PATH for access to the rbenv command-line utility. (For non-Ubuntu distros, replace .bashrc with .bash_profile)
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile #Add rbenv init to shell to enable shims and autocompletion
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc #Add rbenv init to shell to enable shims and autocompletion
+
+#Note that the shell has to be restarted for the changes to be effective.
 
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build #install ruby-build as plug-in
 
