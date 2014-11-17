@@ -63,7 +63,7 @@ jekyll serve
 #a boilerplate jekyll blog should now be up on localhost:4000
 
 #To set up a template:
-#sudo gem install bundler
+#gem install bundler
 #bundle install
 #jekyll serve
 ```
