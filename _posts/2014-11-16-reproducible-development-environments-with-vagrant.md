@@ -11,7 +11,7 @@ At [EngHack](https://www.facebook.com/events/866943706671962/) a couple of weeks
 
 ##What is Vagrant
 
-I have actually heard about Vagrant from one of my close friends over the summer while we were sharing out co-op experiences to each other, but never found a reason to invest time into learning about it. However, its uses are now apparent, and it solves my problem as well as a couple of others; Vagrant is a wrapper around virtualization technologies that provides reproducible and configurable environments through commands as simple as:
+I have actually heard about Vagrant from one of my close friends over the summer while we were sharing our co-op experiences to each other, but never found a reason to invest time into learning about it. However, its uses are now apparent, and it solves my problem as well as a couple of others; Vagrant is a wrapper around virtualization technologies that provides reproducible and configurable environments through commands as simple as:
 
 ```bash
 $ vagrant init hashicorp/precise32
