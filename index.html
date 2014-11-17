@@ -12,6 +12,9 @@ title: "home"
 </div>
 <div class="post-excerpt-home">
   {{ post.excerpt }}
+  {% if post != paginator.posts.last %}
+  <hr>
+    {% endif %}
 </div>
 {% endfor %}
 
