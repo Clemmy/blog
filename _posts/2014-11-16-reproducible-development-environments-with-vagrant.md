@@ -57,10 +57,7 @@ sudo apt-get install -y mongodb-org # install latest version
 sudo npm install -g express
 ```
 
-As you can see, it is very minimal. One thing to note is the '-y' flag used in 
-```
-apt-get install
-```
+As you can see, it is very minimal. One thing to note is the '-y' flag used in ```apt-get install```
 which assumes yes for all the yes/no prompts which will break the installation script.
 
 ###My Vagrantfile
