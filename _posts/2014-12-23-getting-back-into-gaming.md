@@ -36,7 +36,7 @@ However, I believe that Hearthstone is quite easy to get into even without any p
 
 #Conclusion
 
-Both of these games are very fun and I would encourage everyone who is into strategy games to try them out! If anyone wants to add me as a friend on Hearthstone, that would be great. My BattleTag is ```Clemmy#1610```. Happy holidays and happy gaming!
+Both of these games are very fun and I would encourage everyone who is into strategy games to try them out! If anyone wants to add me as a friend on Hearthstone, that would be great. My BattleTag is ```Clemmy#1610```. Happy holidays and happy gaming, Taz'Dingo!
 
 ![Hearthstone](../images/in_post_images/gaming-2.png)
 <!--end-->
