@@ -29,7 +29,7 @@ In Vagrant, the base box is a package which contains the bare minimum of softwar
 
 Provisioning installs software and alters configurations in the virtual machine. In Vagrant, there are several approaches to take when provisioning:
 
-- using a configuration management system such as Puppet, CFEngine, or Chef 
+- using a configuration management system such as Puppet, CFEngine, or Chef
 - using a shell script
 
 I opted for the latter option because I was simply using Vagrant on my personal computer as a safety net. For my purposes, I would barely be recreating the virtual machine; I would only need to re-provision when something goes horrendously wrong and I need to fall back. Therefore, I had no need for the power of a configuration management system, which has a learning curve attached to it. Configuration management systems would be more useful in scenarios where a consistent development environment system needed to be deployed to a bunch of different virtual machines, perhaps of varying operating systems; configuration management systems standardize dependencies and make it easier to manage dependencies over a large number of disposable boxes.
@@ -92,4 +92,5 @@ This part specifies the path of the external shell script to be used for provisi
 
 ##Closing
 And that's it! That is how I set up Vagrant to be able to recreate my development environments from a specific snapshot whenever I want to. Hopefully this solves dependency management problems for anyone who may be reading it. Happy developing!
+
 <!--end-->
