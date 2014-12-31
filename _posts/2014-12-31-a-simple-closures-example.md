@@ -67,7 +67,7 @@ undefined
 undefined
 ```
 
-The reason for this was apparent once I traced through the code. At line 43, I have a synchronous for-block that executes asynchronous code. Line 44 defines a callback function for bl:
+The reason for this was apparent once I traced through the code. At line 7, I have a synchronous for-block that executes asynchronous code. Line 10 defines a callback function for bl:
 
 ```javascript
 function (err, data) {
