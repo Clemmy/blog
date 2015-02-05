@@ -1,3 +1,8 @@
+---
+title: "A Breakdown of my Weekend at UofTHacks"
+tags: [meteor, hackathon]
+---
+
 Hello everyone! This past weekend, I attended [UofTHacks](https://www.hackerleague.org/hackathons/uofthacks), which was a hackathon hosted by the University of Toronto. I had very high expectations for the quality of this hackathon, but it seemed to fall a little short of what I imagined. Perhaps my expectations were set so high because the University of Toronto was one of the biggest schools in Canada, or perhaps it my mood was simply a bit grumpy that day. Either way, let's begin this post with a critique of UofTHacks and hopefully, I won't be too harsh: 
 
 - I received my UofTHacks shirt in size L, one size too big for me, even though there was a form online that all attendees had to fill out, including their shirt size
@@ -39,3 +44,4 @@ Accounts.ui.config({
 ```
 
 That is all I have for tonight folks! But there are a lot of things I want to blog about soon, including some interesting problems I've faced at work, how to use Git properly, as well as other cool things. Be sure to keep updated!
+<!--end-->
