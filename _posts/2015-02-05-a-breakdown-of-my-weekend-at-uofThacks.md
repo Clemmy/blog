@@ -35,7 +35,7 @@ One downfall that we had was that while jerryzxliu is experienced in Zurb Founda
 
 - Authentication in Meteor literally takes a couple of lines (for a very basic bcrypt implementation without styling):
 
-```
+```javascript
 meteor add accounts-ui accounts-password
 {{> loginButtons}}
 Accounts.ui.config({
