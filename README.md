@@ -14,5 +14,5 @@ bundle install
 
 Then, run build and run it on localhost:4000 with:
 ```shell
-jekyll serve
+bundle exec jekyll serve
 ```
