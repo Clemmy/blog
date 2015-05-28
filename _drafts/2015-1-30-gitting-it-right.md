@@ -14,13 +14,13 @@ After understanding the fundamentals of Git, I learned that there were two major
 #Git Flow
 The Git Flow is a branching model is in broad, a strategy for organizing Git commits and branches in such a way that it is easy for the team to develop in parallel. It consists of a two infinitely long main branches:
 
-- a master branch (where the HEAD always reflects a production ready state)
-- a development branch (where developers branch out onto feature branches, and develop until the next deploy)
+- a **master branch** (where the HEAD always reflects a production ready state)
+- a **development branch** (where developers branch out onto feature branches, and develop until the next deploy)
 
 The model also consists of shorter branches known as:
 
-- feature branches (branches off development, and merged back to development, these branches contain commits related to a new feature)
-- hotfix branches (branches off master, that are merged back into development and master, these branches fix bugs that are found in production code)
+- **feature branches** (branches off development, and merged back to development, these branches contain commits related to a new feature)
+- **hotfix branches** (branches off master, that are merged back into development and master, these branches fix bugs that are found in production code)
 
 For more details, read about Git Flow [here](http://nvie.com/posts/a-successful-git-branching-model/).
 
@@ -36,12 +36,29 @@ Throughout my several months of using Git, I noticed that there were several com
 - ```git pull --ff``` which, after fetching, can merge the remote changes into your local repository without a merge commit.
 - ```git merge``` to merge one branch with another
 - ```git rebase -i``` which allows you to ammend commits, break up commits into multiple commits, squash multiple commits into one, and reorder the application of commit diffs. It is a very powerful feature which allows you to organize your git commits locally before pushing, and can make the difference between [this](images/in_post_images/clean-git-tree.png) and [this](images/in_post_images/messy-git-tree.png).
-#Some other cool git stuff
--imerge
--git flow cli
-- git rerere
-I recommend a git GUI as well as a mergetool (for 3 way merging, as opposed to a 2 way merge)
 
+#Some other cool git stuff
+
+###[git imerge](https://github.com/mhagger/git-imerge)
+a tool that makes resolving merge conflicts much more painless. It does incremental git merges that can be saved tested, interrupted, and collaborated all while the merge is in progress.
+###[gitflow extensions](https://github.com/nvie/gitflow)
+a collection of extensions to Git's CLI that provides high level operations for a Git Flow branching model
+###[git rerere](https://git-scm.com/blog/2010/03/08/rerere.html)
+a slightly hidden Git feature that reuses recorded conflict resolutions, so that if a merge has to be re-applied, all the conflicts don't have to be solved again
+
+#What about a GUI and merge tools?
+
+##Graphical git clients
+I highly recommend using a GUI for Git and a merge tool as well. Personally, I use ##[GitX](http://rowanj.github.io/gitx/) since I am on a Mac. Using a GUI allows me to visualize how the git tree looks a lot better, and allows me to stage line by line. With GitX, there is a lot more control to how I want to commit, and it is much easier for me to understand what is happening to my git tree. Of course, I do not rely completely on GitX. I believe that the best way to use Git is through the terminal, but with GitX as a supplement that makes it more productive.
+
+![Tree View](images/in_post_images/gitx-tree-view.png)
+
+![Stage View](images/in_post_images/gitx-stage-view.png)
+
+##Merge tools
+In addition to using a graphical Git client, I also recommend using a tool to help with merging conflicts. For trivial conflicts, it may be painless to simply open up an editor and manually make changes to fix the conflicts, but for a complex situation where there are many files that need to be changed, with multiple conflicts per file, it is much more productive to use a merge tool to resolve them. Also, many git merge tools have the additional functionality of three-way merges instead of a basic two-way merge. A three-way merge is one that finds the common ancestor in the git tree, and tries to apply the diffs of the diverging commits into the common base, which makes the conflict look more sensible. I use [DiffMerge](https://sourcegear.com/diffmerge/) as my merge tool, but only because it works and I haven't had the need to try anything else thus far.
+
+![Diffmerge](images/in_post_images/diffmerge-3-way.png)
 
 #One of my craziest experiences with Git
 One of the tasks I was assigned to do at my company was to split a repository of ~6000 commits into 2 repos: server and client repositories, while retaining the branch structures and history.
