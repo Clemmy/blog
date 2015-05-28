@@ -61,14 +61,8 @@ In addition to using a graphical Git client, I also recommend using a tool to he
 ![Diffmerge](images/in_post_images/diffmerge-3-way.png)
 
 #One of my craziest experiences with Git
-One of the tasks I was assigned to do at my company was to split a repository of ~6000 commits into 2 repos: server and client repositories, while retaining the branch structures and history.
-patch
-diff
-idk
-set somehting as something
+One of the tasks I was assigned to do at my last internship was to split a repository of ~6000 commits into 2 repos: server and client repositories, while retaining the branch structures and history. To do so, I first had to rebase interactively all the way from the beginning of time. In each commit, I amended it so that all changes that were relevant to the server would go to one commit, and all the changes that were relevant to the client would go to another. Then, in a second interactive rebase, I moved all the client-relevant commits to after the latest server-relevant commit, so that the commit tree was partitioned into two main chunks of commits: server-relevant, and client-relevant. Next, I created the new repository for the client commits, and simply set it as a remote, and pushed all my client-relevant code onto it. Finally, I went back to my server repository, and resetted it to the latest commit that was server-related, and voila, the repository has been separated. In this paragraph, I made it seem pretty simple, but I assure you, there was a lot of pain and WTF moments during the actual process. I explored with patches among other features, and learned about the prowess of Git-fu.
 
-They say, know your tools well.
--git flow
--git rerere,/imerge
-
+#Conclusions
+All in all, I hope that this post is useful to anyone who was hesitant about learning Git, or even someone who is already a Git veteran by teaching them a new trick or two about Git. As the saying goes, "Know your tools well". Code hard and remember to version control!
 <!--end-->
