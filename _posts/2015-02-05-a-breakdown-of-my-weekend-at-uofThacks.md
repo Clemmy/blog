@@ -3,17 +3,17 @@ title: "A Breakdown of my Weekend at UofTHacks"
 tags: [meteor, hackathon]
 ---
 
-Hello everyone! This past weekend, I attended [UofTHacks](https://www.hackerleague.org/hackathons/uofthacks), which was a hackathon hosted by the University of Toronto. I had very high expectations for the quality of this hackathon, but it seemed to fall a little short of what I imagined. Perhaps my expectations were set so high because the University of Toronto was one of the biggest schools in Canada, or perhaps it my mood was simply a bit grumpy that day. Either way, let's begin this post with a critique of UofTHacks and hopefully, I won't be too harsh: 
+Hello everyone! This past weekend, I attended [UofTHacks](https://www.hackerleague.org/hackathons/uofthacks), which was a hackathon hosted by the University of Toronto. I had very high expectations for the quality of this hackathon, but it seemed to fall a little short of what I imagined. Perhaps my expectations were set so high because the University of Toronto was one of the biggest schools in Canada, or perhaps it my mood was simply a bit grumpy that day. Either way, let's begin this post with a critique of UofTHacks and hopefully, I won't be too harsh:
 
 - I received my UofTHacks shirt in size L, one size too big for me, even though there was a form online that all attendees had to fill out, including their shirt size
 - There weren't that many employer booths - No free swag. :(
 - There weren't many late night events - most of my time was spent in a small room coding for hours and hours on end
-- Their brunch could use some work: [A wonderful photo of the food](../images/uoft_brunch.jpg)
+- Their brunch could use some work: [A wonderful photo of the food](../images/in_post_images/uoft_brunch.jpg)
 - The atmosphere seemed a little dead - while I was at Hack the North, I was able to constantly walk around and meet new people. In fact, I even had someone from another team help me out with a problem that I had been stuck on, spending hours of his time to help me out. It was a great experience and I met a lot of friendly people. However, at UofTHacks, there was very little interaction with others, so it led to a very awkward environment
 
 However, most of these downfalls can be attributed to a lack of experience in hackathon organization, and also a low budget. I noticed that the number of sponsors at UofTHacks were few compared to Waterloo's Hack The North that I attended last year, so that may have been the reason for its scarcity of events. Despite these downfalls, I still saw the effort that was put into this event. Although few, the volunteer workers were very nice and put a lot of spirit into cheering everyone on and doing their thing. In addition, there were some memorable events such as Red Bull's paper plane challenge to see who can build the farthest gliding paper airplane. I will still have high expectations for UofTHacks in the future. Not many people it right their first time, and they will have plenty of time to learn from this experience, and be _amazing_ next year. I will definitely be applying again.
 
-Alright, onto the butter of this post! 
+Alright, onto the butter of this post!
 
 ##Who?
 I teamed up with two friends of mine for this hackathon. One was my buddy [@ramanpreetnara](https://github.com/ramanpreetnara), who is a JavaScript master that has taught me the ways of JavaScript, as well as a friend of mine who specialized in frontend, [@jerryzxliu](https://github.com/jerryzxliu). After we gathered, we decided to make an organization for all future hackathon projects, and so [parasitic](https://github.com/parasitic) was born. Check it out!
