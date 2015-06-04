@@ -29,7 +29,7 @@ Throughout my several months of using Git, I noticed that there were several com
 
 - ```git checkout <file> <commit_id>``` which grabs a file from a specific revision
 - ```git checkout -- .``` which replaces all unstaged changes with the corresponding files from the previous commit
-- ```git reset --hard <commit_id>``` which moves your local HEAD to the specified commit_id. It's useful when you want to move your HEAD to a diverged commit, or when you bring you make a bad commit locally.
+- ```git reset --hard <commit_id>``` which moves your local HEAD to the specified commit_id. It's useful when you want to move your HEAD to a diverged commit, or when you make a bad commit locally.
 - ```git add <file>``` which simply adds a changed file to the stage area
 - ```git fetch``` which grabs data about the git repository from the specified remote, and can be followed by a ```git pull``` or ```git rebase``` to update your local repo
 - ```git status``` which displays status about your repository, such as what files are staged, unstaged, and your HEAD's position relative to the tracked repository
