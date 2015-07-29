@@ -49,7 +49,7 @@ a slightly hidden Git feature that reuses recorded conflict resolutions, so that
 #What about a GUI and merge tools?
 
 ##Graphical git clients
-I highly recommend using a GUI for Git and a merge tool as well. Personally, I use ##[GitX](http://rowanj.github.io/gitx/) since I am on a Mac. Using a GUI allows me to visualize how the git tree looks a lot better, and allows me to stage line by line. With GitX, there is a lot more control to how I want to commit, and it is much easier for me to understand what is happening to my git tree. Of course, I do not rely completely on GitX. I believe that the best way to use Git is through the terminal, but with GitX as a supplement that makes it more productive.
+I highly recommend using a GUI for Git and a merge tool as well. Personally, I use [GitX](http://rowanj.github.io/gitx/) since I am on a Mac. Using a GUI allows me to visualize how the git tree looks a lot better, and allows me to stage line by line. With GitX, there is a lot more control to how I want to commit, and it is much easier for me to understand what is happening to my git tree. Of course, I do not rely completely on GitX. I believe that the best way to use Git is through the terminal, but with GitX as a supplement that makes it more productive.
 
 ![Tree View](../images/in_post_images/gitx-tree-view.png)
 
