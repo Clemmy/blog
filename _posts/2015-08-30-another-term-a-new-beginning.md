@@ -1,5 +1,5 @@
 ---
-title: "Another term, a new beginning."
+title: "Another Term, a New Beginning."
 tags: [life]
 ---
 

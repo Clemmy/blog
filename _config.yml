@@ -17,6 +17,7 @@ linkedin: "https://www.linkedin.com/in/clementhoang"
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
