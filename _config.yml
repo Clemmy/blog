@@ -27,7 +27,7 @@ ga_tracking_id: UA-55816575-1
 # Other
 
 markdown: kramdown
-permalink: :title
+permalink: :title/
 highlighter: pygments
 
 paginate: 10
