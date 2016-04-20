@@ -4,7 +4,7 @@ header {
 }
 
 .h-wrap {
-  @extend %padding-large;
+  padding: $spacing-ml;
 
   h1.title {
     @extend h3;
