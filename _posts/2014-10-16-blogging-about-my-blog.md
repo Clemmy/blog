@@ -1,6 +1,8 @@
 ---
 title: "Blogging About My Blog (The Who, Why, and the How)"
 tags: [technology, life]
+layout: post
+date: 2014-10-16
 ---
 
 After a year and a half of telling myself that I was going to start a blog, I finally did it!
@@ -32,7 +34,7 @@ When building my blog, my workflow consisted of a Ubuntu virtual machine where I
 ###My Development Environment
 My Ubuntu virtual machine is where I did all my development and experimentation. In order to set it up as the development machine, I installed rbenv, libssl-dev, ruby-build plug-in, ruby, jekyll, nodejs, and git. I set it up with the following script:
 
-```bash
+{% highlight bash linenos %}
 #This script prepares a Debian-based Linux box (particularly Ubuntu) for setting up a simple Jekyll demo
 RUBYVERSION=2.1.2 #Ruby Version to install (a list can be displayed with 'rbenv install -l')
 
@@ -66,7 +68,7 @@ jekyll serve
 #gem install bundler
 #bundle install
 #jekyll serve
-```
+{% endhighlight %}
 
 ###My Production Environment
 The production environment is basically GitHub Pages, and the repository that is hosted on GitHub. In order to add content or remove content, I simply need to go to [github.com/clemmy/clemmy.github.io](http://github.com/clemmy/clemmy.github.io/) and make changes through GitHub's in-browser editor.
@@ -74,6 +76,6 @@ The production environment is basically GitHub Pages, and the repository that is
 ##Closing
 Whew, this was a very long post. I will be wrapping this up now, but I am quite pleased that I finally got this load off my shoulders. Until next time!
 
-![Yay!](../images/in_post_images/yay.jpg)
+![Yay!]({{ site.baseurl }}/assets/in_post_images/yay.jpg)
 
 <!--end-->

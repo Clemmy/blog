@@ -1,6 +1,8 @@
 ---
 title: "The Todo's When Your Car is Broken Into"
 tags: [life]
+layout: post
+date: 2016-04-19
 ---
 
 Last December, during the final few weeks of my internship in Mountain View, I experienced a traumatic event - the theft of my backpack. It was on a Monday evening, when I was in Menlo Park to play some badminton for the first time with one of my new co-workers. Since he had a car, we drove to the badminton center instead of bussing like I usually do. Parking right in front of the brightly lit front entrance, I was both excited, yet naive to leave my backpack inside the car. After around half an hour spent inside, we walked out to find that the window was smashed and my belongings have vanished, including:
@@ -24,4 +26,4 @@ As with many things, prevention is the best protection. In the future, it is wis
 
 P.S. Just finished exams and am heading off to an internship at [Atomic Labs](http://atomic.vc/) for the summer! Pretty excited. Also, I'm going to be doing a rehaul on the blog soon! Be on the lookout. And here's a photo of the best drink ever (pandan basil concoction from Ben Thanh). ;)
 
-<img src="../images/in_post_images/pandan-basil-drink.jpg" alt="#BestDrinkEver" style="width: 600px; margin: 0 auto; display: block;"/>
+<img src="{{ site.baseurl }}/assets/in_post_images/pandan-basil-drink.jpg" alt="#BestDrinkEver" style="width: 600px; margin: 0 auto; display: block;"/>

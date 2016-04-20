@@ -1,47 +1,40 @@
-baseurl: "" # The subpath of your site. "" => root level
-url: "blog.clementhoang.net" # the base hostname & protocol for your site.
-title: "Clemmy's Blog"
+# Title of your blog; shows in the header
+name: "a slice of clementine"
 
+# Description of your content (will only be used on Google Search)
+description: "Follow the adventures of Clement Hoang through his personal blog, detailing his flavour on lifestyle and tech."
 
-paginate: 100
-paginate_path: "page/:num"
-excerpt_separator: <!--end-->
+# Your name. Will show in your footer + sidebar
+author: "Clement Hoang"
 
+url: "blog.clementhoang.net"
+baseurl: ""
 
-#contact links
-github: "https://github.com/clemmy"
-stackoverflow: "http://stackoverflow.com/users/2252894/clement-hoang"
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "I'm a <a href=\"https://en.wikipedia.org/wiki/Clementine\">fruit</a>. I am currently trying to live life with no regrets, making decisions that open more opportunities. I'm a badminton fanatic, a League streamer, an anime lover, and a code monkey. My goal is for this blog to document my experiences and my perspectives. So what are you waiting for? Close this sidebar and start reading my awesome content!"
+
+# Social Accounts
 twitter: "https://twitter.com/c8hoang"
+github: "https://github.com/clemmy"
 linkedin: "https://www.linkedin.com/in/clementhoang"
+facebook: "https://www.facebook.com/clement.h2o"
+instagram: "https://instagram.com/cpthoang/"
 
+# Google Analytics
+ga_domain: blog.clementhoang.net
+ga_tracking_id: UA-55816575-1
 
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
+# Other
 
-# This is used by feed.xml. Uncomment if you want to use it.
-# description: "..."
-
-exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "Gemfile"
-  - "Gemfile.lock"
+markdown: kramdown
 permalink: :title
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+highlighter: pygments
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed

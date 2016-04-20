@@ -1,6 +1,8 @@
 ---
 title: "A Simple Closure Example"
 tags: [javascript, technology]
+layout: post
+date: 2014-12-31
 ---
 
 Ah, the night before New Years, the _perfect_ time for programming. Recently, I have been brushing up on my Javascript coding in preparation of my co-op term, and revisited closures. Closures is a very powerful feature of Javascript, albeit one that is quite tricky to understand at first. Below is an excerpt from [Jibbering](http://jibbering.com/faq/notes/closures/) that aims to define closures in a couple of paragraphs.
@@ -13,7 +15,7 @@ Ah, the night before New Years, the _perfect_ time for programming. Recently, I 
 
 A very simple example of a closure looks like this:
 
-```javascript
+{% highlight javascript linenos %}
 function foo(x) {
   var tmp = 3;
 
@@ -25,7 +27,7 @@ function foo(x) {
 }
 
 foo(2);
-```
+{% endhighlight %}
 
 where ```bar``` can access both the parameter of the outer function ```x``` as well as its local variable ```tmp```. The original post on [StackOverflow](http://stackoverflow.com/a/111200/2252894) goes a lot more in-depth into the explanation.
 
@@ -61,15 +63,15 @@ function printAll() {
 
 At first glance, this code will seem to work, but the output of the preceding program is:
 
-```
+~~~
 undefined
 undefined
 undefined
-```
+~~~
 
 The reason for this was apparent once I traced through the code. At line 7, I have a synchronous for-block that executes asynchronous code. Line 10 defines a callback function for bl:
 
-```javascript
+{% highlight javascript linenos %}
 function (err, data) {
   if (err)
     return console.error(err);
@@ -78,28 +80,28 @@ function (err, data) {
   if (count == 3)
     printAll();
 }
-```
+{% endhighlight %}
 
 In this callback, the variable ```i``` refers to the ```i``` in the for-loop, which is in the outer scope. The variables ```i``` used in the three definitions of the callback functions continue to refer to the ```i``` in the loop, so that at the end of the synchronous for-loop, all the ```i``` variables will have the value ```3```. This can be confirmed with the following addition to the callback definition:
 
-```javascript
+~~~
 console.log(i);
-```
+~~~
 
 The new result will be:
 
-```
+~~~
 3
 3
 3
 undefined
 undefined
 undefined
-```
+~~~
 
 In order to fix this, I wrapped the for-loop contents in a function, which creates a new closure, closing ```i``` to my new helper function. Each respective ```i``` definition is closed to its respective helper "factory" function, and it will have a value of ```i``` that corresponds with the index that the factory function was originally closed to. The final iteration of my code looked like this, which works as expected:
 
-```javascript
+{% highlight javascript linenos %}
 var http = require('http')
 var bl = require('bl');
 
@@ -128,7 +130,7 @@ function httpget(i) {
     }));
   });
 }
-```
+{% endhighlight %}
 
 So in the end, it wasn't one closure example, but two that I wrote about in this post. Regardless, I hope you guys find this post useful. Have a Happy New Year and 2015, here I come!
 

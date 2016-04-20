@@ -1,6 +1,8 @@
 ---
 title: "Another Term, a New Beginning."
 tags: [life]
+layout: post
+date: 2015-08-30
 ---
 
 Hi! This is Clement checking in and currently, I'm super high (on an airplane that is a couple thousand feet above the ground huehue)! I am now on my way to California to begin my internship at a company called Datera. So, before that happens, I would like to write to post that that summarizes my experience in the previous 2B term (academics, extracurriculars, and unrequited love...), what I have been up to in the two weeks following exams, and finally to document my excitements and expectations for my first internship in the States!
@@ -13,7 +15,7 @@ A cool thing that happened this term was "Friday Anime Nights". It started off w
 
 Ah, and during the late stages of this term, I also went into a stage of poverty! Since I bought a Macbook last co-op term (which I don't regret doing, it has boosted by productivity by tenfold compared to a Windows machine!), my funds were drained and in the last month of ths term, my bank account actually hit $0 which a bit of debt was accumulating on my credit card. Those times were definitely scary. I fished for a couple of freelance jobs to get some money, and hustled with some Mcdonalds food hacks, but eventually I did have to go back to my parents for money. By the way, did you know that you can order an extra patty on Mcdonald's burgers for 50 cents each?
 
-![#McdonaldsHacks](../images/in_post_images/mcds-hack.png)
+![#McdonaldsHacks]({{ site.baseurl }}/assets/in_post_images/mcds-hack.png)
 
 Finally, this term was also an emotional roller coaster! I got into a very awkward situation with my roommate, Danny, but we ended up shedding manly tears while eating some ramen at Sakura Island (which I only found out about this term! It's one of Waterloo's first Japanese restaurant and the quality of the food there is amazing!). And thus, our bond became closer than ever.
 

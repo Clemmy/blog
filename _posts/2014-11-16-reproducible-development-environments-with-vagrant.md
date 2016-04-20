@@ -1,6 +1,8 @@
 ---
 title: "Reproducible Development Environments with Vagrant"
 tags: [technology]
+layout: post
+date: 2014-11-16
 ---
 
 Hey everyone! I can't believe it has been an entire month since my last post. I have been quite busy with midterms and job interviews. Hopefully I will be posting more frequently from now on though. In this post, I will be discussing why I started using Vagrant, and what it is.
@@ -13,10 +15,11 @@ At [EngHack](https://www.facebook.com/events/866943706671962/) a couple of weeks
 
 I have actually heard about Vagrant from one of my close friends over the summer while we were sharing our co-op experiences to each other, but never found a reason to invest time into learning about it. However, its uses are now apparent, and it solves my problem as well as a couple of others; Vagrant is a wrapper around virtualization technologies that provides reproducible and configurable environments through commands as simple as:
 
-```bash
+~~~
 $ vagrant init hashicorp/precise32
 $ vagrant up
-```
+~~~
+
 ##My Setup
 
 Since I was using Vagrant on my personal computer and there are no strict performance requirements except for my own convenience, I made certain choices in my setup which may be unfavourable in an industry environment, which I will explain below. Below are the steps I took to create a box customized for development with the MEAN stack.
@@ -36,7 +39,7 @@ I opted for the latter option because I was simply using Vagrant on my personal 
 
 My mean.sh provisioning script contains the following:
 
-```bash
+{% highlight bash linenos %}
 #Install git
 sudo apt-get install -y git
 
@@ -55,7 +58,7 @@ sudo apt-get install -y mongodb-org # install latest version
 
 #Install Express.js
 sudo npm install -g express
-```
+{% endhighlight %}
 
 As you can see, it is very minimal. One thing to note is the '-y' flag used in ```apt-get install```
 which assumes yes for all the yes/no prompts which will break the installation script.
@@ -65,29 +68,33 @@ which assumes yes for all the yes/no prompts which will break the installation s
 The Vagrantfile basically contains the configuration for the entire box. My entire configuration can be found [here](https://gist.github.com/Clemmy/20119b71c17612f0df13). I will be highlighting the different parts of it below.
 
 
-```ruby
+~~~
 config.vm.box = "box-cutter/ubuntu1404-desktop"
-```
+~~~
+
 This part specifies the base box.
 
-```ruby
+~~~
 config.vm.network "private_network", ip: "192.168.33.10"
-```
+~~~
+
 This part creates a private network which allows the host to access the box through the specified IP address.
 
-```ruby
+~~~
 config.vm.provider "virtualbox" do |vb|
   vb.gui = true
 
   vb.customize ["modifyvm", :id, "--memory", "2048"]
   vb.customize ["modifyvm", :id, "--cpus", "2"]
 end
-```
+~~~
+
 This part tells VirtualBox to display the GUI and also modifies some of the default hardware settings. When I first built my virtual machine with Vagrant, it was terribly slow, so I allocated more RAM and processing power to it. The recommended amount of RAM to let the VM use is 1/4th the system RAM according to what I read online.
 
-```ruby
+~~~
 config.vm.provision "shell", path: "mean.sh"
-```
+~~~
+
 This part specifies the path of the external shell script to be used for provisioning. The path is relative, so mean.sh should be placed in the same directory as Vagrantfile.
 
 ##Closing

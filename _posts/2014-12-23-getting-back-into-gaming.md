@@ -1,6 +1,8 @@
 ---
 title: "Getting Back into Gaming"
 tags: [personal, gaming, hearthstone]
+layout: post
+date: 2014-12-23
 ---
 
 Hello fellow blog readers, and happy holidays! In my last blog post, I said I would try to post more frequently, but this post ended up having a longer period of delay than the rest, unfortunately. I actually began writing this post a few weeks ago, but I never really got around to completing it because of exams (I actually ended up editing this first paragraph around three times). Just a few days ago, I completed a pretty tough 2A term, consisting of six courses: Chemistry, Microeconomics, Statistics, Compilers, Digital Computers, and Computational Logic. With the term now over, it is only weeks before I begin my four-month co-op term as a web developer at [Ten Thousand Coffees](https://www.tenthousandcoffees.com/), _Hurrah!_
@@ -14,7 +16,7 @@ The Fire Emblem series is a collection of turn-based tactical RPG video games (I
 ##My Experience
 I originally started my FE12 run on the second hardest difficulty level of _Lunatic_. Needless to say, the name of speaks for itself; with enemies that can make mincemeat out of my friendly units with one to two attacks, it becomes increasingly vital to correctly place my units so that they won't be OHKO'ed. Combine this with characters that are permanently lost once they die, along with the special win conditions that are required to unlock certain bonuses (such as keeping all characters alive to go to a bonus chapter, or winning within a certain amount of turns), I was in for a very challenging playthrough. I cannot count how many times I had to restart a chapter because I made a minor misplay in unit placement only to get killed, or some unlucky RNG that made clearing the chapter impossible. At the same time, I was busy with university life, and so I had not progressed very far in the game even after months of playing. After a long struggle, I finally decided to re-run the game on Hard difficulty (one level under Lunatic, but exponentially easier!) since I simply want to know the plot, before moving on to the sequel, Fire Emblem - Awakening. On a different note, it sure is difficult to imagine how some people can play on the hardest difficulty, _Reverse Lunatic_ without ripping their hairs out of their head; the enemy stats are boosted just like in Lunatic, but no matter what who initiates the "attack", the enemy will be able to land the first hit. __Shiver__.
 
-![Fire Emblem](../images/in_post_images/gaming-1.png)
+![Fire Emblem]({{ site.baseurl }}/assets/in_post_images/gaming-1.png)
 
 #Hearthstone
 
@@ -38,6 +40,6 @@ However, I believe that Hearthstone is quite easy to get into even without any p
 
 Both of these games are very fun and I would encourage everyone who is into strategy games to try them out! If anyone wants to add me as a friend on Hearthstone, that would be great. My BattleTag is ```Clemmy#1610```. Happy holidays and happy gaming, Taz'Dingo!
 
-![Hearthstone](../images/in_post_images/gaming-2.png)
+![Hearthstone]({{ site.baseurl }}/assets/in_post_images/gaming-2.png)
 
 <!--end-->
