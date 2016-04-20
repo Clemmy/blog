@@ -20,6 +20,11 @@ layout: default
         <span class="icon-twitter"></span>
       </a>
     </div>
+
+    <div class="comments">
+      {% include disqus.html%}
+    </div>
+
     {% if page.next %}
       <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
         <span class="nav-title nav-title-next">newer</span> &rarr;
