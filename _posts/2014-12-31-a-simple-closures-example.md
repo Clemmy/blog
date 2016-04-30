@@ -31,7 +31,8 @@ foo(2);
 
 where ```bar``` can access both the parameter of the outer function ```x``` as well as its local variable ```tmp```. The original post on [StackOverflow](http://stackoverflow.com/a/111200/2252894) goes a lot more in-depth into the explanation.
 
-##Where I Came Across It
+## Where I Came Across It
+
 A common way closures are created is from the heavy usage of callback methods in Javascript. While I was writing some code to perform GET requests on three provided URLs asynchronously, I ran into a weird bug. My first iteration of the code looked like this:
 
 {% highlight javascript linenos %}

@@ -17,22 +17,28 @@ However, most of these downfalls can be attributed to a lack of experience in ha
 
 Alright, onto the butter of this post!
 
-##Who?
+## Who?
+
 I teamed up with two friends of mine for this hackathon. One was my buddy [@ramanpreetnara](https://github.com/ramanpreetnara), who is a JavaScript master that has taught me the ways of JavaScript, as well as a friend of mine who specialized in frontend, [@jerryzxliu](https://github.com/jerryzxliu). After we gathered, we decided to make an organization for all future hackathon projects, and so [parasitic](https://github.com/parasitic) was born. Check it out!
 
-##What?
+## What?
+
 Unfortunately, none of us went into the hackathon very prepared, so we had no ideas on what to do upon entry. After a few hours of brainstorming, we decided to go along with something that I was planning to make eventually: [hearthnet](https://github.com/parasitic/hearthnet). Basically, it is a platform for finding and challenging other players in a game called Hearthstone, which I mentioned in an earlier blog post, since the game has no innate feature to allow users to find each other based on deck preferences and other fields.
 
-##How?
+## How?
+
 For this project, we wanted to learn a new framework. After a bit of discussion, we decided to go with [Meteor](https://www.meteor.com/), which is a full stack JavaScript framework, since one of our close buddies used it to build [Phanime](http://phanime.com/), which we regard as a pretty neat website. We all spent a few hours reading up on some Meteor basics before our hacking began!
 
-##The Workflow
+## The Workflow
+
 The workflow that we used at this hackathon was quite different from the Git flow workflow that we use at my workplace, which aims to keep the Git tree clean. Right away, a spike branch was created, and ramanpreetnara and I pair programmed to write a big chunk of code which supported authentication and allowed the web app to route properly. Interestingly, it was hard to decouple the work process at first because Meteor is interesting in that its programming paradigm encourages interaction to a published database in the client-side, and has a big feature known as reactivity. Once we got a solid base to work on, we all branched off to different features and worked individually, using a merge-heavy approach to combine our changes.
 
-##Some downfalls
+## Some downfalls
+
 One downfall that we had was that while jerryzxliu is experienced in Zurb Foundation, a frontend framework, ramanpreetnara and I had nil. We thought it would be okay as long as jerryzxliu handled all the frontend work, but the framework itself didn't play too nice with Meteor, and we were blocked for a while in trying to bootstrap everything. In addition, the #nosleep hackathon culture took its toll on jerryzxliu and he had to leave prematurely. Also, it was our first time trying to implement user authentication, and since we were rushed on time, we ended up doing it incorrectly (using client-side routing instead of a server sided solution). This will have to be rewritten in the future for hearthnet to be more secure.
 
-##Some cool things I learned
+## Some cool things I learned
+
 - Meteor reactivity: All layers, from database to template, update themselves automatically when necessary. This is done with some Meteor magic where a the client has a local copy of the 'published' content of the Mongo database on the server, and most operations are actually performed on both the client and server side, then their results are compared, which increases the speed of the client site, as well as an additional security check
 
 - Authentication in Meteor literally takes a couple of lines (for a very basic bcrypt implementation without styling):

@@ -27,8 +27,12 @@ ga_tracking_id: UA-55816575-1
 # Other
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 permalink: :title/
-highlighter: rouge
+# highlighter: rouge
 
 paginate: 10
 paginate_path: "/page/:num"
