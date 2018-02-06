@@ -11,14 +11,15 @@ url: "blog.clementhoang.net"
 baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
-author-bio: "I'm a <a href=\"https://en.wikipedia.org/wiki/Clementine\">fruit</a>. I am currently trying to live life with no regrets, making decisions that open more opportunities. I'm a badminton fanatic, a League streamer, an anime lover, and a code monkey. My goal is for this blog to document my experiences and my perspectives. So what are you waiting for? Close this sidebar and start reading my awesome content!"
+author-bio: "I'm a software engineering senior at the University of Waterloo. I'm a badminton fanatic, a League enthusiast, an anime lover, and a Javascript monkey. My goal is for this blog to document my learnings and my perspectives."
 
 # Social Accounts
 twitter: "https://twitter.com/c8hoang"
 github: "https://github.com/clemmy"
 linkedin: "https://www.linkedin.com/in/clementhoang"
-facebook: "https://www.facebook.com/clement.h2o"
+facebook: "https://www.facebook.com/clemsie"
 instagram: "https://instagram.com/cpthoang/"
+medium: "https://instagram.com/cpthoang/"
 
 # Google Analytics
 ga_domain: blog.clementhoang.net
